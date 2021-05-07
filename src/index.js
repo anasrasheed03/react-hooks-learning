@@ -3,5 +3,6 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 import App from './App';
+import { AuthContextProvier } from './store/auth-context';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<AuthContextProvier><App /></AuthContextProvier> , document.getElementById('root'));
